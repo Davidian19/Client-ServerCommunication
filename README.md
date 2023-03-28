@@ -20,13 +20,10 @@ Para executar o código, primeiro execute o servidor e depois execute o cliente.
 <p>O servidor e o cliente devem ser executados em terminais separados.</p>
 
 <h4>Executar o servidor</h4>
-```
-python server.py
-```
+`python server.py`
 <h4>Executar o Cliente</h4>
-```
-python client.py
-```
+`python client.py`
+
 <p>O cliente irá pedir que o usuário digite a mensagem para enviar ao servidor. O servidor irá responder com a mensagem recebida ou com "TIMEOUT" caso o tempo limite seja excedido. O usuário pode digitar "TCHAU" a qualquer momento para encerrar a conexão</p>
 
 <h1>Client-Server Communication with Sockets in Python</h1>
